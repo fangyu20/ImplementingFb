@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ImplementingFb</string>
+
+    <string name="textview">TextView</string>
+    <string name="Blink">BLINK</string>
+
+    <!-- -->
+    <string name="ContraseniaInicio">Contraseña</string>
+    <string name="UsuarioInicio">Usuario</string>
+    <string name="BtnIniciar">Iniciar sesión</string>
+    <string name="BtnCrear">Crear nueva cuenta</string>
+    <string name="btnContrasenaOlvidada">¿Olvidaste tu contraseña?</string>
+
+
+    <!-- Boton contacto-->
+    <string name="BtnWhat">Comprar por WhatsApp</string>
+
+    <!-- Crear cuenta -->
+
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Correo">Correo electronico</string>
+    <string name="Contrasena">Contraseña nueva</string>
+    <string name="Confirmar">Confirmar contraseña</string>
+    <string name="Registrate">Registrate</string>
+
+    <!--Recuperar Contraseña-->
+    <string name="Recuperar">Recuperar contraseña</string>
+    <string name="Ultima">Ultima cotraseña</string>
+    <string name="Nueva">Nueva contraseña</string>
+    <string name="btnConfirmar">Confirmar</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#cdc7c7"
+    >
+
+
+
+    <item
+        android:id="@+id/iHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:cnb_iconColor="@color/home"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/ifavorite"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        app:cnb_iconColor="@color/favorite"
+        android:title="Me gusta"/>
+
+    <item
+        android:id="@+id/iAccount"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        app:cnb_iconColor="@color/count"
+        android:title="Inicio"/>
+
+
+
+
+</menu>

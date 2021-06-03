@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "166825246448",
+    "project_id": "prueba-f22dd",
+    "storage_bucket": "prueba-f22dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166825246448:android:dee11df9314158808d8c35",
+        "android_client_info": {
+          "package_name": "com.example.implementingfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166825246448-ul2fuhtvunusa0sle46okpp37cr6urn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.implementingfb",
+            "certificate_hash": "6eec8e9b109c825555a2a50aa4dd680c82c04428"
+          }
+        },
+        {
+          "client_id": "166825246448-1cgs3nvgrqrg06l97r0fop359fv7e81f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMN9CZcD7YcMQ6JSwLIPATjTNnMpfXdmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166825246448-1cgs3nvgrqrg06l97r0fop359fv7e81f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

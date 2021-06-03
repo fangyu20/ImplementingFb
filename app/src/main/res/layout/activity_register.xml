@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+  >
+
+
+    <TextView
+        android:id="@+id/tv_Iniciarsecion"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/Registrate"
+
+        android:textColor="@color/darkgray"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etNombreCrearP"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="@string/Nombre"
+
+        app:errorEnabled="true"
+
+        android:gravity="center"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="#0049FF"
+        android:textColorHint="@color/black"
+
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+
+        <!--      app:counterOverflowTextColor="@color/purple_700"
+
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="#4CAF50"
+                    app:hintTextColor="@color/favorite"
+
+
+                      android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreCrear"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:shadowColor="@color/purple_200" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="@string/Apellidos"
+        app:errorEnabled="true"
+
+        android:gravity="center"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="#0049FF"
+        android:textColorHint="@color/black"
+
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+        <!--      app:counterOverflowTextColor="@color/purple_700"
+
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="#4CAF50"
+                    app:hintTextColor="@color/favorite"
+
+
+                      android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etApellidosCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:shadowColor="@color/purple_200" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="@string/Correo"
+        app:errorEnabled="true"
+
+        android:gravity="center"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="#0049FF"
+        android:textColorHint="@color/black"
+
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+        <!--      app:counterOverflowTextColor="@color/purple_700"
+
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="#4CAF50"
+                    app:hintTextColor="@color/favorite"
+
+
+                      android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCorreoCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:shadowColor="@color/purple_200" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etContrasenaP"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="@string/Contrasena"
+        app:endIconMode="password_toggle"
+
+        app:errorEnabled="true"
+
+        android:gravity="center"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="#0049FF"
+        android:textColorHint="@color/black"
+
+
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+        <!--      app:counterOverflowTextColor="@color/purple_700"
+
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="#4CAF50"
+                    app:hintTextColor="@color/favorite"
+
+
+                      android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:shadowColor="@color/purple_200" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnCrearCrear"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/layout_btn"
+        android:backgroundTint="#1A71DC"
+        android:fontFamily="@font/allerta"
+        android:text="@string/BtnCrear"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+    <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/layout_bg2"
+            android:backgroundTint="#F4EBEB"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+    -->
+
+        <!--
+            android:layout_marginStart="205dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"-->
+
+
+
+<!--
+        <EditText
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputset"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/allerta"
+            android:hint="@string/Nombre"
+
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+
+            />
+
+        <EditText
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputset"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/allerta"
+            android:hint="@string/Apellidos"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="14dp"/>
+
+        <EditText
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputset"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/allerta"
+            android:hint="@string/Correo"
+            android:inputType="textEmailAddress"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="14dp"/>
+
+-->
+   <!--     <EditText
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputset"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/allerta"
+            android:hint="@string/Contrasena"
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="14dp"/>
+
+        <Button
+            android:id="@+id/btnCrearCrear"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/layout_btn"
+            android:backgroundTint="#1A71DC"
+            android:fontFamily="@font/allerta"
+            android:text="@string/BtnCrear"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+-->
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        <!--     <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Contrasena"
+            app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        <!--     <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etNombreCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nombre"
+            app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        <!--     <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etApellidosCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Apellidos"
+            app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+
+ <!--   </LinearLayout>-->
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txtLog"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#000000"
+                android:gravity="center"
+                android:fontFamily="@font/allerta"
+                android:text="@string/Blink"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="156dp"
+                android:layout_height="168dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-18dp"
+                android:layout_marginLeft="-18dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/mb" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="0"
+            android:background="@drawable/layout_bg2">
+
+
+            <TextView
+                android:id="@+id/tv_Iniciarsecion"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/btnCrearCrear"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginStart="205dp"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/allerta"
+                android:gravity="center"
+                android:text="Iniciar seción"
+                android:textColor="@color/darkgray"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etNombreCrear"
+                android:layout_width="367dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tv_Registrate"
+
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/inputset"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="@font/allerta"
+                android:hint="@string/Nombre"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp" />
+
+            <EditText
+                android:id="@+id/etApellidosCrear"
+                android:layout_width="367dp"
+                android:layout_height="52dp"
+                android:layout_below="@+id/etNombreCrear"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/inputset"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="@font/allerta"
+                android:hint="@string/Apellidos"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp" />
+
+
+            <EditText
+                android:id="@+id/etCorreoCrear"
+                android:layout_width="367dp"
+                android:layout_height="52dp"
+                android:layout_below="@+id/etApellidosCrear"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/inputset"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="@font/allerta"
+                android:hint="@string/Correo"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp" />
+
+
+            <EditText
+                android:id="@+id/etContrasena"
+                android:layout_width="367dp"
+                android:layout_height="52dp"
+                android:layout_below="@+id/etCorreoCrear"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/inputset"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="@font/allerta"
+                android:hint="@string/Contrasena"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp" />
+
+            <Button
+                android:id="@+id/btnCrearCrear"
+                android:layout_width="367dp"
+                android:layout_height="61dp"
+                android:layout_below="@+id/etContrasena"
+
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/layout_btn"
+                android:backgroundTint="#1A71DC"
+                android:fontFamily="@font/allerta"
+                android:text="@string/BtnCrear"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_Registrate"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/allerta"
+                android:gravity="center"
+                android:text="@string/Registrate"
+                android:textAlignment="center"
+                android:textColor="@color/darkgray"
+                android:textSize="32dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+-->
+
+</LinearLayout>
